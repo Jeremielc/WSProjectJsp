@@ -35,7 +35,7 @@
 </div>
 
     <div class="container theme-showcase" role="main">
-      <form action="database/add_client_treatment.php" method="post">
+      <form action="process_input.jsp" method="post">
 
       <div class="form-group">
       <table style="margin-left:auto; margin-right:auto">
@@ -44,16 +44,16 @@
       </tr>
         <tr>
           <th>
-            <label for="name" style="padding:15px;">Nom*</label>
+            <label for="lastname" style="padding:15px;">lastname</label>
           </th>
           <td>
-            <input type="text" class="form-control input-sm" name="name" placeholder="Nom" required="true">
+            <input type="text" class="form-control input-sm" name="lastname" placeholder="lastname" required="true">
           </td>
           <th>
-            <label for="firstname" style="padding:15px;">Prenom</label>
+            <label for="firstname" style="padding:15px;">firstname</label>
           </th>
           <td>
-            <input type="text" class="form-control input-sm" name="firstname" placeholder="Prenom" required="false">
+            <input type="text" class="form-control input-sm" name="firstname" placeholder="firstname" required="false">
           </td>
           <td>
           	<button type="submit" class="btn btn-primary" style="margin-left:10px;">Search</button>
